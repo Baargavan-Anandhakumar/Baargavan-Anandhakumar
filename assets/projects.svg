@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <style>
+    .card { fill: rgba(20, 20, 30, 0.8); stroke: rgba(106, 13, 173, 0.5); stroke-width: 1.5; rx: 12; }
+    .title { font-family: 'Inter', sans-serif; font-size: 18px; font-weight: bold; fill: #00FFFF; }
+    .desc { font-family: 'Inter', sans-serif; font-size: 13px; fill: #A0AEC0; }
+    .tech { font-family: 'Inter', sans-serif; font-size: 11px; fill: #7DF9FF; font-weight: bold; }
+    .tech-bg { fill: rgba(125, 249, 255, 0.1); rx: 10; }
+    @keyframes slideIn { from { transform: translateX(20px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+    .anim { animation: slideIn 0.8s ease-out forwards; opacity: 0; }
+  </style>
+  <rect width="100%" height="100%" fill="transparent" />
+  
+  <g transform="translate(40, 30)" class="anim" style="animation-delay: 0.1s">
+    <rect width="340" height="150" class="card" />
+    <text x="20" y="35" class="title">Time Capsule</text>
+    <text x="20" y="65" class="desc">A secure application for storing digital</text>
+    <text x="20" y="85" class="desc">memories accessible after a future date.</text>
+    <rect x="20" y="105" width="45" height="20" class="tech-bg"/><text x="42.5" y="119" class="tech" text-anchor="middle">Java</text>
+    <rect x="75" y="105" width="45" height="20" class="tech-bg"/><text x="97.5" y="119" class="tech" text-anchor="middle">SQL</text>
+    <rect x="130" y="105" width="75" height="20" class="tech-bg"/><text x="167.5" y="119" class="tech" text-anchor="middle">HTML/CSS</text>
+  </g>
+
+  <g transform="translate(420, 30)" class="anim" style="animation-delay: 0.3s">
+    <rect width="340" height="150" class="card" />
+    <text x="20" y="35" class="title">CardioCare</text>
+    <text x="20" y="65" class="desc">Healthcare management system for</text>
+    <text x="20" y="85" class="desc">cardiovascular patients &amp; records.</text>
+    <rect x="20" y="105" width="45" height="20" class="tech-bg"/><text x="42.5" y="119" class="tech" text-anchor="middle">Java</text>
+    <rect x="75" y="105" width="45" height="20" class="tech-bg"/><text x="97.5" y="119" class="tech" text-anchor="middle">SQL</text>
+    <rect x="130" y="105" width="75" height="20" class="tech-bg"/><text x="167.5" y="119" class="tech" text-anchor="middle">HTML/CSS</text>
+  </g>
+
+  <g transform="translate(40, 210)" class="anim" style="animation-delay: 0.5s">
+    <rect width="340" height="150" class="card" />
+    <text x="20" y="35" class="title">Real-Time IoT Temp Control</text>
+    <text x="20" y="65" class="desc">Monitoring system measuring transport</text>
+    <text x="20" y="85" class="desc">temp for medical supply logistics.</text>
+    <rect x="20" y="105" width="75" height="20" class="tech-bg"/><text x="57.5" y="119" class="tech" text-anchor="middle">NodeMCU</text>
+    <rect x="105" y="105" width="90" height="20" class="tech-bg"/><text x="150" y="119" class="tech" text-anchor="middle">Embedded C</text>
+    <rect x="205" y="105" width="40" height="20" class="tech-bg"/><text x="225" y="119" class="tech" text-anchor="middle">IoT</text>
+  </g>
+
+  <g transform="translate(420, 210)" class="anim" style="animation-delay: 0.7s">
+    <rect width="340" height="150" class="card" />
+    <text x="20" y="35" class="title">Phishing Detection</text>
+    <text x="20" y="65" class="desc">Web app that detects suspicious URLs</text>
+    <text x="20" y="85" class="desc">using rule-based security analysis.</text>
+    <rect x="20" y="105" width="45" height="20" class="tech-bg"/><text x="42.5" y="119" class="tech" text-anchor="middle">Java</text>
+    <rect x="75" y="105" width="75" height="20" class="tech-bg"/><text x="112.5" y="119" class="tech" text-anchor="middle">HTML/CSS</text>
+  </g>
+</svg>

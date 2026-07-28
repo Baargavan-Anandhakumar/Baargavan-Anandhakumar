@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="800" height="120">
+  <style>
+    .badge { fill: rgba(10, 10, 15, 0.8); stroke: rgba(0, 255, 255, 0.4); stroke-width: 1; rx: 20; }
+    .text { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 600; fill: #E2E8F0; text-anchor: middle; }
+  </style>
+  <rect width="100%" height="100%" fill="transparent" />
+  
+  <g transform="translate(50, 40)">
+    <rect width="160" height="40" class="badge" />
+    <text x="80" y="25" class="text">AWS Intern</text>
+  </g>
+  <g transform="translate(230, 40)">
+    <rect width="160" height="40" class="badge" />
+    <text x="80" y="25" class="text">NPTEL HCI</text>
+  </g>
+  <g transform="translate(410, 40)">
+    <rect width="160" height="40" class="badge" />
+    <text x="80" y="25" class="text">Industry 4.0 &amp; IIoT</text>
+  </g>
+  <g transform="translate(590, 40)">
+    <rect width="160" height="40" class="badge" />
+    <text x="80" y="25" class="text">IEEE Member</text>
+  </g>
+</svg>

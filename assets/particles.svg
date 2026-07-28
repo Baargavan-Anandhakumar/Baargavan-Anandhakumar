@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <style>
+    @keyframes moveUp { 0% { transform: translateY(200px) scale(0.5); opacity: 0; } 50% { opacity: 0.8; } 100% { transform: translateY(-50px) scale(1.2); opacity: 0; } }
+    .p1 { animation: moveUp 4s infinite linear; fill: #7DF9FF; }
+    .p2 { animation: moveUp 5s infinite linear 1s; fill: #6A0DAD; }
+    .p3 { animation: moveUp 6s infinite linear 2s; fill: #00FFFF; }
+    .p4 { animation: moveUp 4.5s infinite linear 0.5s; fill: #7DF9FF; }
+    .p5 { animation: moveUp 5.5s infinite linear 1.5s; fill: #6A0DAD; }
+  </style>
+  <circle cx="100" cy="200" r="3" class="p1" />
+  <circle cx="250" cy="200" r="2" class="p2" />
+  <circle cx="400" cy="200" r="4" class="p3" />
+  <circle cx="550" cy="200" r="2.5" class="p4" />
+  <circle cx="700" cy="200" r="3.5" class="p5" />
+</svg>
