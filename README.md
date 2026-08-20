@@ -162,7 +162,7 @@ Information Technology student focused on software development with a strong fou
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="assets/github-contribution-grid-snake-dark.svg" width="100%" />
+    <img alt="GitHub Contribution Snake" src="assets/github-contribution-grid-snake.svg" width="100%" />
   </picture>
   <br/>
   <sub>GitHub contribution activity</sub>
