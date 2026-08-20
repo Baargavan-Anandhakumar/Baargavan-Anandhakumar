@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="280" viewBox="0 0 540 280">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#080B14"/>
+      <stop offset="50%" style="stop-color:#0B1020"/>
+      <stop offset="100%" style="stop-color:#080B14"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D1B69"/>
+      <stop offset="50%" style="stop-color:#6B46C1"/>
+      <stop offset="100%" style="stop-color:#2D1B69"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Card background -->
+  <rect x="1" y="1" width="538" height="278" rx="14" ry="14" fill="url(#bg)" stroke="url(#border)" stroke-width="1.5"/>
+
+  <!-- LeetCode icon and title -->
+  <text x="30" y="38" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#6B46C1" letter-spacing="2">◈  LEETCODE</text>
+
+  <!-- Main number -->
+  <text x="270" y="115" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF" text-anchor="middle" filter="url(#glow)">438</text>
+  <text x="270" y="142" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#8B8FA3" text-anchor="middle" letter-spacing="3">PROBLEMS SOLVED</text>
+
+  <!-- Difficulty cards -->
+  <!-- Easy -->
+  <rect x="50" y="170" width="130" height="65" rx="8" ry="8" fill="#0D1117" stroke="#1A3A2A" stroke-width="1"/>
+  <text x="115" y="200" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#00B8A3" text-anchor="middle">193</text>
+  <text x="115" y="222" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="500" fill="#5B6070" text-anchor="middle" letter-spacing="2">EASY</text>
+
+  <!-- Medium -->
+  <rect x="205" y="170" width="130" height="65" rx="8" ry="8" fill="#0D1117" stroke="#3A2E1A" stroke-width="1"/>
+  <text x="270" y="200" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#FFC01E" text-anchor="middle">203</text>
+  <text x="270" y="222" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="500" fill="#5B6070" text-anchor="middle" letter-spacing="2">MEDIUM</text>
+
+  <!-- Hard -->
+  <rect x="360" y="170" width="130" height="65" rx="8" ry="8" fill="#0D1117" stroke="#3A1A1A" stroke-width="1"/>
+  <text x="425" y="200" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#EF4743" text-anchor="middle">42</text>
+  <text x="425" y="222" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="500" fill="#5B6070" text-anchor="middle" letter-spacing="2">HARD</text>
+
+  <!-- Username -->
+  <text x="270" y="264" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="400" fill="#4A4E5C" text-anchor="middle">Baargavan06</text>
+</svg>

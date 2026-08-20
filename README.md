@@ -150,22 +150,20 @@ Information Technology student focused on software development with a strong fou
 
 ### ✦ CODING PROFILE
 
-**LeetCode Statistics**
-
-<p>
-  <img src="https://img.shields.io/badge/Total_Solved-438-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="Total Solved" />
-  <img src="https://img.shields.io/badge/Easy-193-0D1117?style=for-the-badge&labelColor=0D1117&color=00B8A3" alt="Easy" />
-  <img src="https://img.shields.io/badge/Medium-203-0D1117?style=for-the-badge&labelColor=0D1117&color=FFC01E" alt="Medium" />
-  <img src="https://img.shields.io/badge/Hard-42-0D1117?style=for-the-badge&labelColor=0D1117&color=EF4743" alt="Hard" />
-</p>
+<div align="center">
+  <img src="assets/leetcode-stats.svg" alt="LeetCode Statistics — 438 Problems Solved" width="540" />
+</div>
 
 <br/>
 
 ### ✦ GITHUB ANALYTICS
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Baargavan-Anandhakumar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Baargavan-Anandhakumar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+  <img src="assets/github-analytics.svg" alt="GitHub Analytics" />
+</div>
+
+<div align="center">
+  <img src="assets/github-languages.svg" alt="Top Languages" />
 </div>
 
 <br/>
@@ -176,8 +174,10 @@ Information Technology student focused on software development with a strong fou
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="assets/github-contribution-grid-snake-dark.svg">
+    <img alt="GitHub Contribution Snake" src="assets/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
+  <br/>
+  <sub>GitHub contribution activity</sub>
 </div>
 
 <br/>
@@ -186,18 +186,20 @@ Information Technology student focused on software development with a strong fou
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center" valign="top">
+    <td width="25%" align="center" valign="top">
       <br/>
-      <b>CURRENTLY BUILDING</b><br/><br/>
+      <b>🔨 BUILDING</b>
+      <br/><br/>
       Full Stack Web Applications<br/>
       Java Development<br/>
       Backend Development<br/>
       AWS Cloud Skills<br/>
       <br/>
     </td>
-    <td width="33%" align="center" valign="top">
+    <td width="25%" align="center" valign="top">
       <br/>
-      <b>CURRENTLY STRENGTHENING</b><br/><br/>
+      <b>📈 STRENGTHENING</b>
+      <br/><br/>
       Data Structures & Algorithms<br/>
       SQL<br/>
       REST Concepts<br/>
@@ -205,12 +207,24 @@ Information Technology student focused on software development with a strong fou
       Software Engineering Practices<br/>
       <br/>
     </td>
-    <td width="33%" align="center" valign="top">
+    <td width="25%" align="center" valign="top">
       <br/>
-      <b>EXPLORING</b><br/><br/>
+      <b>🔍 EXPLORING</b>
+      <br/><br/>
       Modern Software Development<br/>
       Cloud Architecture<br/>
       Backend Engineering<br/>
+      <br/>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <br/>
+      <b>🎯 TARGETING</b>
+      <br/><br/>
+      Java Development<br/>
+      Backend Engineering<br/>
+      Full Stack Development<br/>
+      Cloud Development<br/>
+      Software Engineering<br/>
       <br/>
     </td>
   </tr>

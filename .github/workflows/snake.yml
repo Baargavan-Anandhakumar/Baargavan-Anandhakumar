@@ -2,39 +2,32 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    # Every 12 hours
-    - cron: "0 */12 * * *"
-  
-  # Allow manual trigger
+    - cron: "0 0 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate contribution grid snake
         uses: Platane/snk@v3
         with:
-          # GitHub user name to read the contribution graph from
           github_user_name: Baargavan-Anandhakumar
-          
-          # SVG files to generate
           outputs: |
             assets/github-contribution-grid-snake.svg
             assets/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Commit and push the generated SVGs
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Automated: Generate Contribution Snake"
+          commit_message: "Automated: Update Contribution Snake"
           file_pattern: assets/*.svg
           branch: main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
