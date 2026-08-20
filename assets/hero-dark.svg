@@ -13,18 +13,24 @@
         <animate attributeName="stop-color" values="#6A0DAD;#7DF9FF;#00FFFF;#6A0DAD" dur="8s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
+    <clipPath id="typing">
+      <rect x="75" y="130" width="0" height="50">
+        <animate attributeName="width" values="0;700" dur="2.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" />
+      </rect>
+    </clipPath>
     <style>
       .name { font-family: 'Inter', system-ui, sans-serif; font-size: 34px; font-weight: 800; fill: url(#textGrad); letter-spacing: 1px; }
       .title { font-family: 'Inter', system-ui, sans-serif; font-size: 16px; font-weight: 500; fill: #A0AEC0; }
       .glass { fill: rgba(255, 255, 255, 0.02); stroke: rgba(255, 255, 255, 0.1); stroke-width: 1; backdrop-filter: blur(10px); rx: 16; }
       @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-      .fade-in-1 { opacity: 0; animation: fadeIn 1s ease-out forwards 0.5s; }
-      .fade-in-2 { opacity: 0; animation: fadeIn 1s ease-out forwards 0.8s; }
-      .fade-in-3 { opacity: 0; animation: fadeIn 1s ease-out forwards 1.1s; }
-      .fade-in-4 { opacity: 0; animation: fadeIn 1s ease-out forwards 1.4s; }
+      .fade-in-1 { opacity: 0; animation: fadeIn 1s ease-out forwards 1.5s; }
+      .fade-in-2 { opacity: 0; animation: fadeIn 1s ease-out forwards 1.8s; }
+      .fade-in-3 { opacity: 0; animation: fadeIn 1s ease-out forwards 2.1s; }
       @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-8px); } 100% { transform: translateY(0px); } }
       .floating { animation: float 6s ease-in-out indefinite; }
       .dots { fill: #7DF9FF; opacity: 0.2; }
+      .cursor { fill: #7DF9FF; animation: blink 1s step-end infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
     </style>
     <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
       <circle fill="#7DF9FF" cx="2" cy="2" r="1" opacity="0.1" />
@@ -39,10 +45,17 @@
     <circle cx="105" cy="100" r="6" fill="#FFBD2E" />
     <circle cx="130" cy="100" r="6" fill="#27C93F" />
     
-    <text x="80" y="170" class="name fade-in-1">Hi, I'm BAARGAVAN ANANDHAKUMAR</text>
+    <g clip-path="url(#typing)">
+      <text x="80" y="170" class="name">Hi, I'm BAARGAVAN ANANDHAKUMAR</text>
+    </g>
+    <!-- Cursor -->
+    <rect x="625" y="140" width="4" height="36" class="cursor">
+       <animate attributeName="x" values="80;625" dur="2.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" />
+       <animate attributeName="opacity" values="1;0" begin="3s" dur="0.1s" fill="freeze" />
+    </rect>
     
-    <text x="80" y="220" class="title fade-in-2">>&nbsp; Java Developer | Full Stack Developer | Cloud Enthusiast</text>
-    <text x="80" y="255" class="title fade-in-3">>&nbsp; Student Developer | Problem Solver</text>
-    <text x="80" y="290" class="title fade-in-4">>&nbsp; B.Tech IT '27 @ Dr. N.G.P Institute of Technology</text>
+    <text x="80" y="220" class="title fade-in-1">&#62;&#160; Java Developer | Full Stack Developer | Cloud Enthusiast</text>
+    <text x="80" y="255" class="title fade-in-2">&#62;&#160; Student Developer | Problem Solver</text>
+    <text x="80" y="290" class="title fade-in-3">&#62;&#160; B.Tech IT '27 @ Dr. N.G.P Institute of Technology</text>
   </g>
 </svg>
