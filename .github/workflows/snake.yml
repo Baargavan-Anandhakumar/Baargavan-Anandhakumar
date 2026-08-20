@@ -22,8 +22,14 @@ jobs:
         with:
           github_user_name: Baargavan-Anandhakumar
           outputs: |
-            assets/github-contribution-grid-snake.svg
-            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Move SVGs to assets folder
+        run: |
+          mkdir -p assets
+          mv dist/github-contribution-grid-snake.svg assets/
+          mv dist/github-contribution-grid-snake-dark.svg assets/
 
       - name: Commit and push the generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v5
