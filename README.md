@@ -99,6 +99,15 @@ Information Technology student focused on software development with a strong fou
 ### ✦ FEATURED PROJECTS
 
 <details>
+  <summary><b>Expiry Date Manager — 2026</b></summary>
+  <br/>
+  A full-stack application designed to manage expiry dates, track items, and provide timely visibility into upcoming expirations. <br/><br/>
+  <b>Client:</b> <a href="https://github.com/Baargavan-Anandhakumar/expiry-date-manager-react-client">expiry-date-manager-react-client</a> <br/>
+  <b>Server:</b> <a href="https://github.com/Baargavan-Anandhakumar/expiry-date-manager-server">expiry-date-manager-server</a> <br/>
+  <b>Technologies:</b> `React` `Vite` `Node.js` `Express` `MongoDB` `JWT` `Swagger`
+</details>
+
+<details>
   <summary><b>Real-Time IoT Temperature Control for Medical Supply Transport — 2026</b></summary>
   <br/>
   An IoT-based temperature monitoring and control system designed for transporting vaccines and temperature-sensitive medical supplies. <br/><br/>
@@ -164,8 +173,6 @@ Information Technology student focused on software development with a strong fou
     <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg">
     <img alt="GitHub Contribution Snake" src="assets/github-contribution-grid-snake.svg" width="100%" />
   </picture>
-  <br/>
-  <sub>GitHub contribution activity</sub>
 </div>
 
 <br/>
