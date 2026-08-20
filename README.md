@@ -156,18 +156,6 @@ Information Technology student focused on software development with a strong fou
 
 <br/>
 
-### ✦ GITHUB ANALYTICS
-
-<div align="center">
-  <img src="assets/github-analytics.svg" alt="GitHub Analytics" />
-</div>
-
-<div align="center">
-  <img src="assets/github-languages.svg" alt="Top Languages" />
-</div>
-
-<br/>
-
 ### ✦ CONTRIBUTION SNAKE
 
 <div align="center">
