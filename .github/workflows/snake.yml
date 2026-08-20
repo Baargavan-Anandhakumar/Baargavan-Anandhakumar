@@ -32,9 +32,11 @@ jobs:
           rm -f assets/github-contribution-grid-snake-dark.svg
           chmod -R u+rwX assets
           if [ -f "dist/github-contribution-grid-snake.svg" ]; then
+            sed -i 's/<\/svg>/<style>.u { display: none !important; }<\/style><\/svg>/g' dist/github-contribution-grid-snake.svg
             cp dist/github-contribution-grid-snake.svg assets/github-contribution-grid-snake.svg
           fi
           if [ -f "dist/github-contribution-grid-snake-dark.svg" ]; then
+            sed -i 's/<\/svg>/<style>.u { display: none !important; }<\/style><\/svg>/g' dist/github-contribution-grid-snake-dark.svg
             cp dist/github-contribution-grid-snake-dark.svg assets/github-contribution-grid-snake-dark.svg
           fi
 
